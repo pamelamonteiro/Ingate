@@ -1,0 +1,45 @@
+.title {
+  color: red;
+  font-weight:bolder;
+  text-align: center;
+}
+
+.subtitle {
+  color: blue;
+  font-weight: bold;
+}
+
+.module-section {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 8px;
+  margin: 8px;
+}
+
+.module-section h4 {
+  margin-top: 0px;
+}
+
+.container-module-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(229, 226, 226);
+}
+
+.table-modules {
+  border-collapse: collapse;
+  border: 1px solid black;
+  padding: 4px;
+}
+
+.table-modules th, .table-modules td {
+  padding: 5px;
+}
+
+div h4 {
+  margin-bottom: 0px;
+}
